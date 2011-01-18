@@ -1,0 +1,9 @@
+This is an example of how to have a repo version of Ruby 1.8.7, Rake, and Albacore
+to build your solution.  This is useful in scenarios where you cannot or do not want
+to install Ruby on your build server (how unfortunate!).  Ruby and the required
+components lives in the Tools folder. The build.sh and build.cmd scripts
+will use this copy of Ruby to clean, build, test, etc your solution based on the
+tasks defined in rakefile.rb.
+
+This example was made possible by looking through the machine.specifications repo,
+where great things have been created... and caffeine, lots of caffeine.
