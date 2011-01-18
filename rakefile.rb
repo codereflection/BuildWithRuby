@@ -23,7 +23,7 @@ end
 mspec :specifications do |mspec|
 	mspec.command = "Lib/mspec/mspec.exe"
 	mspec.assemblies = "Build/BuildWithRuby.Specs.dll"
-	mspec.html_output = "Report"
+	mspec.html_output = "Report/"
 end
 
 
