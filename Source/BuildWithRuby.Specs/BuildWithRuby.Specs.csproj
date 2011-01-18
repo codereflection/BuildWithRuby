@@ -56,6 +56,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\ProjectVersion.cs">
+      <Link>Properties\ProjectVersion.cs</Link>
+    </Compile>
     <Compile Include="AwesomeSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
