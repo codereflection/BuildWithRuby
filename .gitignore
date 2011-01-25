@@ -17,3 +17,5 @@ _ReSharper*
 *.vs10x
 Build
 Report
+# don't exclude the Ruby bin!
+!Tools/Rake/bin
