@@ -17,5 +17,7 @@ _ReSharper*
 *.vs10x
 Build
 Report
+
 # don't exclude the Ruby bin!
-!Tools/Rake/bin
+![Tt]ools/Rake/lib/ruby/gems/1.8/gems/rake-0.8.7/bin/
+![Tt]ools/Rake/bin
