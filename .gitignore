@@ -18,6 +18,9 @@ _ReSharper*
 Build
 Report/*
 
+#Make sure report dir is created
+!Report/.gitignore
+
 # don't exclude the Ruby bin!
 ![Tt]ools/Rake/lib/ruby/gems/1.8/gems/rake-0.8.7/bin/
 ![Tt]ools/Rake/bin
