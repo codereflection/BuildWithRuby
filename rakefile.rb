@@ -7,6 +7,7 @@ task :default => [:full]
 
 
 task :full => [:clean,:assemblyInfo,:build,:specifications]
+task :full_unix => [:clean,:assemblyInfo,:xbuild,:specifications]
 
 task :clean do
 	FileUtils.rm_rf 'build'
@@ -17,6 +18,11 @@ end
 msbuild :build do |msb|
 	msb.properties :configuration => :AutomatedRelease
 	msb.solution = "Source/BuildWithRuby.sln"
+end
+
+xbuild :xbuild do |x|
+	x.properties :Configuration => :AutomatedRelease
+	x.solution = "Source/BuildWithRuby.sln"
 end
 
 
