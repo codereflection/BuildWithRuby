@@ -1,6 +1,5 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
-
 [assembly: AssemblyTitle("Build With Ruby Example")]
 [assembly: AssemblyCompany("42 Productions")]
 [assembly: AssemblyProduct("Build With Ruby Example")]
