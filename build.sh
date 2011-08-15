@@ -1,2 +1,1 @@
-clear
-"tools\Rake\bin\ruby.exe" "tools\Rake\bin\rake"
+./Tools/Rake/bin/ruby ./Tools/Rake/bin/rake
